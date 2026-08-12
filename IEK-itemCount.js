@@ -61,6 +61,8 @@ define(['N/record', 'N/search', 'N/log'], function (record, search, log) {
                 }
             }else
             {
+
+                // log.debug('checkbox is unchecked');
                 log.debug('checkbox is unchecked');
             }
         } catch (e) {
