@@ -8,10 +8,7 @@
  * Approach    : Option A - Combined QOH Display Only (per approved solution doc)
  *
  * Confirmed field/sublist IDs (from XML dump of the record):
- *   Sublist id           : item
- *   Snapshot Qty field id: snapshotline
- *   Item field id         : item   (internal id)
- *   Item display field id : item_display
+ *   
  */
 
 define(['N/record', 'N/search', 'N/log'], function (record, search, log) {
