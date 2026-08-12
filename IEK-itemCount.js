@@ -60,10 +60,7 @@ define(['N/record', 'N/search', 'N/log'], function (record, search, log) {
                         value: combinedQty
                     });
                     }
-                    log.debug({
-                        title: 'Combined QOH applied (display only)',
-                        details: 'Item ' + itemId + ' -> combined QOH = ' + combinedQty
-                    });
+                    
                 }
             }else
             {
